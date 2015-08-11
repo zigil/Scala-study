@@ -41,6 +41,11 @@ object BasicFunctions {
     def correct = d4
 
     /*
+      and we can reuse d1-d3
+     */
+    def reused2 = d2(_,_)
+
+    /*
       Practise those constructions, analyse REPL answers and look at Scala API
       to get familiar with above notations.
      */
